@@ -46,6 +46,10 @@ app.post('/api/users', (req, res) => {
     res.status(201).json(newUser);
 });
 
+app.get('/api/hello', (req, res) => {
+    return res.json({ message: "hello" })
+})
+
 // Start the server
 app.listen(port, () => {
     console.log(`Server running on http://localhost:${port}`);
