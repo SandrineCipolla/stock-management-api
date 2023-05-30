@@ -1,0 +1,13 @@
+{
+    "jest.autoRun": {
+        "watch": true
+    },
+    "jest.showCoverageOnLoad": true,
+    "jest.rootPath": "src",
+    "jest.jestCommandLine": "npm run test --",
+    "jest.coverageColors": {
+        "covered": "rgba(1, 1, 222, 0.3)",
+        "uncovered": "rgba(255, 76, 48, 0.4)",
+        "partially-covered": "rgba(235, 198, 52, 0.4)",
+    }
+}
