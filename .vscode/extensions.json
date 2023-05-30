@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "orta.vscode-jest",
+        "rangav.vscode-thunder-client",
+        "ms-vscode.test-adapter-converter"
+    ]
+}
